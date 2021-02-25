@@ -2,7 +2,7 @@ package com.gmail.quabidlord.pathmanager;
 
 import java.nio.file.Paths;
 
-public class PathChecker {
+public final class PathChecker {
     private final PathValidator pathValidator = new PathValidator();
 
     public PathChecker() {
